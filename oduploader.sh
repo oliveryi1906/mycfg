@@ -17,7 +17,7 @@ Uploader="/usr/local/bin/OneDriveUploader";
 Config="/content/auth.json";
 #初始化生成的配置auth.json绝对路径，参考第3步骤生成的路径
 
-chown -R www:www $LocalDIR
+#chown -R www:www $LocalDIR
 chmod -R 750 $LocalDIR
 #解决与可道云集成的权限问题
 
